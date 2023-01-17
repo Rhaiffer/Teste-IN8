@@ -41,6 +41,7 @@ const url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/lapt
 
 // Printa o resuldado da busca
 console.log(produtos)
+await browser.close(); 
 })();
 
 //Para rodar basta utilizar o comando: node index.js
